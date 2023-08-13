@@ -6,8 +6,8 @@
   @font-face {
     font-family: "Inter";
     src: local("Inter Semibold"),
-      url(../assets/fonts/Inter-SemiBold.woff2) format("woff2"),
-      url(../assets/fonts/Inter-SemiBold.woff) format("woff");
+      url("../assets/fonts/Inter-SemiBold.woff2") format("woff2"),
+      url("../assets/fonts/Inter-SemiBold.woff") format("woff");
     font-weight: 600;
   }
 
