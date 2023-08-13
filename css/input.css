@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Inter";
+    src: local("Inter Semibold"),
+      url(/assets/fonts/Inter-SemiBold.woff2) format("woff2"),
+      url(/assets/fonts/Inter-SemiBold.woff) format("woff");
+    font-weight: 600;
+  }
+
+  .nav-container.closed {
+    @apply w-[8.31rem];
+  }
+
+  .nav-container.closed .account-box p,
+  .nav-container.closed .main-list-text,
+  .nav-container.closed .small-icon {
+    @apply opacity-0 invisible;
+  }
+
+  .nav-container.closed .account-box button {
+    @apply rotate-180;
+  }
+
+  .minor-open-btn.closed .minor-open-btn-icon {
+    @apply -rotate-90;
+  }
+
+  .minor-list.closed {
+    @apply h-0 opacity-0 invisible;
+  }
+
+  .visibility {
+    @apply visible;
+  }
+
+  .minor-list-closed {
+    @apply bg-black06 rounded-xl p-6 h-48 w-48 opacity-100 visible;
+  }
+}

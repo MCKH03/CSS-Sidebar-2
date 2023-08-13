@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/output.css" />
+    <title>Sidebar 2</title>
+  </head>
+  <body
+    class="font-inter font-semibold text-white04 h-screen flex items-center justify-center text-lg"
+  >
+    <div class="w-[25rem] bg-car bg-cover bg-center h-full">
+      <nav
+        class="h-full w-80 bg-black06 backdrop-blur-sm px-9 py-12 nav-container closed transition-all duration-500"
+      >
+        <div class="flex gap-4 mb-7 items-center relative account-box">
+          <button
+            class="flex items-center justify-center absolute -right-12 top-1/2 -translate-y-1/2 bg-blueCustom rounded-full p-1 shadow-blueCustom transition-all duration-500 rotate-0"
+          >
+            <svg class="w-5 h h-5">
+              <use xlink:href="/assets/icons/sprite.svg#arrow"></use>
+            </svg>
+          </button>
+          <figure
+            class="w-14 h-14 bg-black06 p-2 rounded-xl border border-white border-solid flex-shrink-0"
+          >
+            <img
+              src="/assets/img/logo.png"
+              alt="WWHCoder logo"
+              class="h-full w-full"
+            />
+          </figure>
+          <div class="flex flex-col gap-2">
+            <p class="text-sm transition-all duration-500">Mehrshad Ch. Kh.</p>
+            <p class="text-white text-2xl transition-all duration-500">
+              WWHCODER
+            </p>
+          </div>
+        </div>
+        <span class="w-full h-[1px] bg-white04 block mb-4"></span>
+        <ul class="flex flex-col gap-6 justify-center">
+          <li>
+            <a
+              href="#"
+              class="flex gap-4 items-center w-full h-full pl-[14px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+            >
+              <svg class="w-7 h-7 flex-shrink-0">
+                <use xlink:href="/assets/icons/sprite.svg#dashboard"></use>
+              </svg>
+              <p class="main-list-text transition-all duration-500">
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-4 items-center w-full h-full pl-[14px] py-3 rounded-xl hover:bg-white10 transition-all duration-300 relative minor-open-btn closed"
+            >
+              <svg class="w-7 h-7 flex-shrink-0">
+                <use xlink:href="/assets/icons/sprite.svg#book-2"></use>
+              </svg>
+              <p class="main-list-text transition-all duration-500">Classes</p>
+
+              <svg
+                class="absolute right-[18px] top-1/2 -translate-y-1/2 rotate-90 w-5 h-5 small-icon transition-all duration-500 minor-open-btn-icon"
+              >
+                <use xlink:href="/assets/icons/sprite.svg#arrow"></use>
+              </svg>
+            </a>
+
+            <ul
+              class="flex flex-col gap-6 pl-12 h-48 relative minor-list closed transition-all duration-500"
+            >
+              <svg
+                class="absolute left-[1.9rem] top-2 w-3 h-[10.7rem] stroke-white"
+              >
+                <use xlink:href="/assets/icons/sprite.svg#line"></use>
+              </svg>
+              <svg class="absolute left-[1.9rem] top-1 w-3 h-7">
+                <use xlink:href="/assets/icons/sprite.svg#curve"></use>
+              </svg>
+              <svg class="absolute left-[1.9rem] top-20 w-3 h-7">
+                <use xlink:href="/assets/icons/sprite.svg#curve"></use>
+              </svg>
+              <li>
+                <a
+                  href="#"
+                  class="flex gap-4 items-center w-full h-full pl-[10px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+                >
+                  <p>Maths</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex gap-4 items-center w-full h-full pl-[10px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+                >
+                  <p>English</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex gap-4 items-center w-full h-full pl-[10px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+                >
+                  <p>Economics</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-4 items-center w-full h-full pl-[14px] py-3 rounded-xl hover:bg-white10 transition-all duration-300 relative"
+            >
+              <svg class="w-7 h-7 flex-shrink-0">
+                <use xlink:href="/assets/icons/sprite.svg#messages"></use>
+              </svg>
+              <p class="main-list-text transition-all duration-500">Messages</p>
+              <span
+                class="absolute right-[13px] top-1/2 -translate-y-1/2 w-7 h-7 rounded-md bg-goldCustom text-black shadow-grayCustom flex items-center justify-center small-icon transition-all duration-500"
+                >3</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-4 items-center w-full h-full pl-[14px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+            >
+              <svg class="w-7 h-7 flex-shrink-0">
+                <use xlink:href="/assets/icons/sprite.svg#chat"></use>
+              </svg>
+              <p class="main-list-text transition-all duration-500">Chat</p>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="flex gap-4 items-center w-full h-full pl-[14px] py-3 rounded-xl hover:bg-white10 transition-all duration-300"
+            >
+              <svg class="w-7 h-7 flex-shrink-0">
+                <use xlink:href="/assets/icons/sprite.svg#book"></use>
+              </svg>
+              <p class="main-list-text transition-all duration-500">
+                Timetable
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
